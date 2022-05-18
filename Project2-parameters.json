@@ -1,0 +1,42 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "Project 2"
+	},
+    {
+		"ParameterKey": "VPCCIDR",
+		"ParameterValue": "10.0.0.0/16"
+	},
+	{
+		"ParameterKey": "PublicSubnet1CIDR",
+		"ParameterValue": "10.0.0.0/24"
+	},
+	{
+		"ParameterKey": "PublicSubnet2CIDR",
+		"ParameterValue": "10.0.1.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet1CIDR",
+		"ParameterValue": "10.0.2.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet2CIDR",
+		"ParameterValue": "10.0.3.0/24"
+	},
+    {
+		"ParameterKey": "InstanceAMI",
+		"ParameterValue": "ami-005de95e8ff495156"
+	},
+    {
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.medium"
+	},
+    {
+		"ParameterKey": "SSHKey",
+		"ParameterValue": "Project2Key"
+	},
+    {
+        "ParameterKey": "myIP",
+        "ParameterValue": "156.214.223.78/32"
+    }
+]
