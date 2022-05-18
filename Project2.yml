@@ -237,7 +237,6 @@ Resources:
           cd /var/www/html
           echo "it works! Udagram, Udacity." > index.html
       ImageId: !Ref InstanceAMI
-      KeyName: !Ref SSHKey
       SecurityGroups:
       - Ref: InstanceSecurityGroup
       InstanceType: !Ref InstanceType
